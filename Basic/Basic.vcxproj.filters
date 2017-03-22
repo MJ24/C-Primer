@@ -23,5 +23,11 @@
     <ClInclude Include="string_usage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="sstream_usage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="person_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

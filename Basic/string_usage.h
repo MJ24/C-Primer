@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-class String_usage
+class StringUsage
 {
 private:
 	//用auto+范围for遍历
@@ -32,7 +32,7 @@ private:
 			*it = tolower(*it);
 	}
 public:
-	static void show_usage()
+	static void showUsage()
 	{
 		string st1 = "hello world!";
 #pragma region 字符串遍历等操作
