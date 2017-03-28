@@ -145,9 +145,14 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="map_usage.h" />
     <ClInclude Include="person_info.h" />
     <ClInclude Include="sstream_usage.h" />
     <ClInclude Include="string_usage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="oringInfo.txt" />
+    <Text Include="transMap.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
