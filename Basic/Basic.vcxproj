@@ -147,8 +147,11 @@
   <ItemGroup>
     <ClInclude Include="map_usage.h" />
     <ClInclude Include="person_info.h" />
+    <ClInclude Include="sizeof_usage.h" />
     <ClInclude Include="sstream_usage.h" />
     <ClInclude Include="string_usage.h" />
+    <ClInclude Include="str_blob.h" />
+    <ClInclude Include="虚函数表.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="oringInfo.txt" />

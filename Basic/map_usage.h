@@ -3,12 +3,23 @@
 #include <fstream>
 #include <sstream>
 #include <map>
+#include <unordered_map>
+#include <unordered_set>
 #include <string>
 using namespace std;
 class MapUsage
 {
 public:
-	void show_usage()
+	void showUsage()
+	{
+		unordered_map<int, string> ump = { {24,"Nolan"},{23,"Echo"} };
+		cout << ump.find(24)->second << endl;;
+		for (unordered_map<int, string>::iterator it = ump.begin(); it != ump.end(); ++it)
+		{
+			cout << it->second << endl;
+		}
+	}
+	void tansMap()
 	{
 		//´Ó×Ö·û´®À´·­Òë
 		string transMapStr = "asap as soon as possible\n"
