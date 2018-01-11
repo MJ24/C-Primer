@@ -1,0 +1,4 @@
+this is a text file
+this is line 2 and this line has two "this"
+line 3
+hello word
